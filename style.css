@@ -1,0 +1,196 @@
+.mymargin {
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+.fwb{
+    font-weight:600;
+    font-size: 1.4rem;}
+.section
+{
+    font-size: 1.2rem;
+}
+
+.carousel-details h5 {
+    font-size: 25px;
+}
+.carousel-details p {
+    font-size: 18px;
+}
+.carousel-details button {
+    font-size: 18px;
+}
+.fleximage {
+    margin:10px;
+    width: 22rem;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: 40px;
+    justify-content: center;
+}
+.flexfont {
+    font-size: 18px;
+    font-weight: 500;
+}
+.griddiv {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.gridimg{
+    margin:2px;
+
+}
+.img1 {
+    height:35rem;
+    width:25rem;
+}
+.img2 {
+    height:35rem;
+    width:50rem;
+}
+.img3 {
+    height:17.35rem;
+    width:13rem;
+}
+.img4 {
+    width: 23.5rem;
+}
+
+.flexcard {
+    display: flex;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: 40px;
+    justify-content: center;
+}
+.right {
+    justify-content: space-between;
+    align-items: end;
+}
+
+
+
+
+/* Media query */
+@media screen and (max-width: 768px) and (min-width: 500px) {
+    .mymargin {
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    .fwb{
+        font-weight:600;
+        font-size: 1.2rem;}
+    .section
+    {
+        font-size: 1rem;
+    }
+    .carousel-details {
+        padding-bottom: 0px;
+    }
+    .carousel-details h5 {
+        font-size: 18px;
+    }
+    .carousel-details p {
+        font-size: 12px;
+    }
+    .carousel-details button {
+        font-size: 13px;
+    }
+    .gridimg{
+        margin:1px;
+    
+    }
+    .fleximage {
+        width: 18rem;
+    }
+    .flexfont {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .griddiv {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .img1 {
+        height:15rem;
+        width:9rem;
+    }
+    .img2 {
+        height:15rem;
+        width:20.5rem;
+    }
+    .img3 {
+        height:7.45rem;
+        width:5rem;
+    }
+    .img4 {
+        width:10rem;
+    }
+    .flexcard {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 1218px) {
+    .fleximage {
+        width: 25rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px)  {
+    .griddiv {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .img1 {
+        height:20rem;
+        width:12rem;
+    }
+    .img2 {
+        height:20rem;
+        width:28rem;
+    }
+    .img3 {
+        height:9.9rem;
+        width:7rem;
+    }
+    .img4 {
+        width:13.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    /* .gridimg{
+        margin:1px;
+    
+    } */
+    .griddiv {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .img1 {
+        height:16rem;
+        width:8rem;
+    }
+    .img2 {
+        height:16rem;
+        width:15.5rem;
+    }
+    .img3 {
+        height:7.9rem;
+        width:4.5rem;
+    }
+    .img4 {
+        width:6.5rem;
+    }
+    .flexcard {
+        flex-wrap: wrap;
+    }
+}
+
+
